@@ -17,7 +17,9 @@
 <video id="bgv" autoplay loop src="212.mp4"></video>
 -->
 </div>
-<div id="result" class="result"></div>
+<div class="content">    
+    <div id="result" class="result"></div>
+</div> 
 <div id="tools" class="tools">
 <button
         v-for="value in btns"
@@ -42,10 +44,5 @@
 <script type="text/javascript" src="js/main.js"></script>
 </body>
 </html>
-sed -i '/\"name\": 322/a\ \ \ \ \"score\": 0.000001' member.js
-sed -i 's/\"name\": 322/\"name\": 322,/g' member.js
-sed -i '/\"name\": 319/a\ \ \ \ \"score\": 0.005' member.js
-sed -i 's/\"name\": 319/\"name\": 319,/g' member.js
-sed -i '/\"name\": 459/,+1d;:go;1,2!{P;N;D};N;bgo' member.js
 
 
